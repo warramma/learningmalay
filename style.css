@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --malaysia-blue : #010066;
+    --malaysia-red : #CC0001;
+    --malaysia-yellow : #FFCC00;
+    --malaysia-white: #ffffff; 
+    --dark-gray: rgb(36, 35, 35);
+
+}
+body{
+    min-height: 100vh;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.75em;
+}
+/*--------NAV--------*/
+nav{
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+    background-color: var(--malaysia-red);
+    font-size: 24px;
+    font-weight: 600;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li{
+    padding: 10px 20px;
+}
+nav ul li:hover{
+    background: linear-gradient(102deg, var(--malaysia-blue) 0%, rgba(204,0,1,1) 45%, rgba(255,204,0,1) 92%);
+    border-radius: 5px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+/*--------MAIN--------*/
+main{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "intro intro about about"
+    "library library generator generator"
+    "learn learn learn learn";
+}
+.intro{
+    grid-area:intro;
+}
+.intro h1{
+    font-size: 60px;
+    line-height: 1em;
+    word-wrap:break-word;
+}
+.subheading{
+    color: var(--malaysia-yellow);
+    font-size: 30px;
+    font-style: italic;
+}
+.home-about, .intro{
+    background-color: rgb(36, 35, 35);
+    color: white;
+    padding: 20px;
+}
+.home-about{
+    grid-area:about;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*---library section*/
+.home-library{
+    grid-area: library;
+}
+.random-fact{
+    grid-area: generator;
+}
+.home-library, .random-fact{
+    background-color: var(--malaysia-blue);
+    padding: 20px;
+    color: white;
+}
+/*---how to learn section*/
+.home-learn{
+    grid-area:learn;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: var(--malaysia-yellow);
+}
+/*----general buttons---*/
+button{
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+}
+/*-----FOOTER------*/
+footer{
+    margin-top: auto;
+}

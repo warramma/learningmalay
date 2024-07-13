@@ -50,7 +50,7 @@ nav ul li a{
     text-decoration: none;
 }
 /*--------MAIN--------*/
-main{
+.home-main{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
@@ -153,4 +153,20 @@ footer ul li{
 footer ul li a{
     text-decoration: none;
     color: white;
+}
+/*----------------------------------------------
+-----------------------------------------------
+--------------HOW page styling starts------------
+------------------------------------------------*/
+
+.how-main{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.how-main ul{
+    margin-left: 50px;
 }

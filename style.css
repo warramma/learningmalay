@@ -156,10 +156,10 @@ footer ul li a{
 }
 /*----------------------------------------------
 -----------------------------------------------
---------------HOW page styling starts------------
+--------------additional pages styling starts------------
 ------------------------------------------------*/
 
-.how-main{
+.how-main, .library-main{
     display: flex;
     flex-direction: column;
     padding: 30px;
@@ -167,6 +167,6 @@ footer ul li a{
     margin: 0 auto;
     margin-top: 100px;
 }
-.how-main ul{
+.how-main ul, .library-main ul{
     margin-left: 50px;
 }

@@ -21,6 +21,7 @@ body{
 nav{
     display: flex;
     width: 100%;
+    box-sizing: border-box;
     justify-content: right;
     padding: 10px;
     background-color: var(--malaysia-red);
@@ -36,6 +37,8 @@ nav ul{
 }
 nav ul li{
     padding: 10px 20px;
+    box-sizing: border-box;
+    height: 55px;
 }
 nav ul li:hover{
     background: linear-gradient(102deg, var(--malaysia-blue) 0%, rgba(204,0,1,1) 45%, rgba(255,204,0,1) 92%);
@@ -73,8 +76,8 @@ main{
     background-color: rgb(36, 35, 35);
     color: white;
     padding: 20px;
-    padding-top: 100px;
-    min-height: 60vh;
+    padding-top: 150px;
+    min-height: 80vh;
 }
 .home-about{
     grid-area:about;

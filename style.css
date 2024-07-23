@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Rowdies:wght@300;400;700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -16,6 +18,7 @@ body{
     display: flex;
     flex-direction: column;
     line-height: 1.75em;
+    font-family: "M PLUS Rounded 1c", sans-serif;
 }
 /*--------NAV--------*/
 nav{
@@ -29,6 +32,7 @@ nav{
     font-size: 24px;
     font-weight: 600;
     position: fixed;
+    font-family: "Rowdies", sans-serif;
 }
 nav ul{
     list-style-type: none;
@@ -76,6 +80,7 @@ nav ul li a:hover{
     font-size: 60px;
     line-height: 1em;
     word-wrap:break-word;
+    font-family: "Rowdies", sans-serif;
 }
 .subheading{
     color: var(--malaysia-yellow);

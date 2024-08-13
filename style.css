@@ -178,3 +178,18 @@ footer ul li a{
 .how-main ul, .library-main ul{
     margin-left: 50px;
 }
+
+/*=========LIBRARY STYLING-================*/
+#resources-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.game-card{
+    background-color: #FFFFFF;
+    padding: 1%;
+    margin: 1%;
+    width: 300px;
+    text-align: center;
+    border-radius: 7px;
+}

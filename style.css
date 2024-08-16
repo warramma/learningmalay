@@ -19,6 +19,7 @@ body{
     flex-direction: column;
     line-height: 1.75em;
     font-family: "M PLUS Rounded 1c", sans-serif;
+    background-color: rgb(238, 237, 233);
 }
 /*--------NAV--------*/
 header{
@@ -171,25 +172,57 @@ footer ul li a{
     display: flex;
     flex-direction: column;
     padding: 30px;
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 40px;
 }
 .how-main ul, .library-main ul{
     margin-left: 50px;
 }
 
+.library-main h1, .how-main h1{
+    margin: 30px 0px;
+    font-size: 60px;
+    color: rgb(58, 58, 162);
+    font-family: "Rowdies", sans-serif;
+    text-shadow: rgb(255, 247, 9) 1px 0 10px;
+}
+h2, h3, h4{
+    margin: 15px 0px;
+    font-family: "Rowdies", sans-serif;
+}
 /*=========LIBRARY STYLING-================*/
 #resources-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.game-card{
+.resource-card{
     background-color: #FFFFFF;
-    padding: 1%;
-    margin: 1%;
-    width: 300px;
-    text-align: center;
+    padding: 20px;
+    margin: 5px;
+    width: 450px;
+    text-align: left;
     border-radius: 7px;
+    background-color: rgb(255, 243, 196);
+}
+.resource-card h2{
+    text-align: center;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+#button-container{
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#button-container button{
+    border: 1px solid rgb(206, 201, 201);
+    border-radius: 0;
+    color: var(--malaysia-red);
+}
+#button-container button:hover{
+    color: white;
+    background-color: var(--malaysia-red);
 }

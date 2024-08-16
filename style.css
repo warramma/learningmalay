@@ -67,6 +67,7 @@ nav ul a:hover{
 }
 .subheading{
     color: var(--malaysia-yellow);
+    margin-top: 15px;
     font-size: 30px;
     font-style: italic;
 }

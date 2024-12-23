@@ -110,7 +110,7 @@ const resources = `[
         "name": "RTMKlik",
         "type": "Show",
         "description": "Access Malaysian TV programs and radio stations as they broadcast (do be aware of time zone differences though!) Also available as an app on ios and Android!",
-        "beginnerfriendly": "Yes",
+        "beginnerfriendly": "True",
         "link" : "https://rtmklik.rtm.gov.my/"
     },
     {
